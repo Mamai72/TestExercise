@@ -22,12 +22,12 @@ data class Meta(
     val repo: String,
     val signal_from: String,
     val src_domain: String,
-    val src_id: Int,
+    val src_id: String,
     val src_name: String,
     val src_options: SrcOptions,
     val src_url: Any,
     val status: String,
     val tab: String,
     val topic: List<String>,
-    val unsafe: Int
+    val unsafe: String
 )
